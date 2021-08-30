@@ -20,7 +20,8 @@ int main(){
     scanf("%d",&n);
     arr = (int*)malloc(sizeof(int)*n);
     printf("\nenter array values : ");
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++)
+    {
         scanf("%d",arr+i);
     }
     printf("\nenter values to be searched : ");

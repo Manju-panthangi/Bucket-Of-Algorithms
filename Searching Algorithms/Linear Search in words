@@ -1,0 +1,11 @@
+-->>Linear Search
+As the name says it searches for the elements by checking each element one by one (meaning linear) or simply sequentially.
+example : let an array consist of 4 elements say
+arr : 4 2 5 6
+we wanna know where is 5 in the list , what this algorithm does is
+(search value = 5 )
+-->compares 5 with 4 (nope its not the same ) /starts comparing value at 0 index
+-->compares 5 with 2 (still not found) / compares value at next index till found
+-->compares 5 with 5 (yup its the same found it ) matches with value at index 2
+break the loop 🗡️
+So, found at index 2 👍 :)
